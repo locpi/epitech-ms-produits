@@ -47,6 +47,9 @@
 	<build>
 		<plugins>
 			<plugin>
+				<configuration>
+					<finalName>produits</finalName>
+				</configuration>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
